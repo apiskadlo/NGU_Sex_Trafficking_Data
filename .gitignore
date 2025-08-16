@@ -1,0 +1,54 @@
+# OS-specific junk
+.DS_Store
+Thumbs.db
+
+# R workspace and data files
+.Rhistory
+.Rapp.history
+.RData
+.Ruserdata
+
+# RStudio
+.Rproj.user/
+
+# Temporary files and backups
+*.swp
+*.tmp
+*.bak
+*~
+
+# Compiled source #
+###################
+*.o
+*.so
+*.dll
+*.lib
+*.a
+
+# Logs and reports
+*.log
+*.out
+*.aux
+
+# Build and packaging output
+.Rcheck/
+.Rproj.user/
+.Rproj/
+__pycache__/
+
+# Ignore all files in "output" or "build" folders (commonly used for generated products)
+output/
+build/
+
+# Optional: Latex/knitr/markdown
+*.tex
+*.toc
+*.pdfsync
+*.synctex.gz
+
+# (Decision: PDF references are *not* ignored by default—remove '*.pdf' from ignore unless you want to ignore generated PDFs.)
+# If you wish to ignore only auto-generated PDFs, put them in a dedicated /output folder and ignore that folder:
+# output/*.pdf
+
+# Uncomment the following line ONLY if you want to ignore ALL PDFs!
+# *.pdf
